@@ -1,0 +1,30 @@
+<h2>Pizza</h2>
+<div class="dish-wrapper-column">
+  <mat-list>
+    <mat-list-item *ngFor="let pizza of pizzas">
+      <div matLine>
+        <img
+          class="dish-image"
+          [src]="
+            'http://api.listekbazylii32.pl/images/699aed28-13f6-4f59-9b65-08ebf7b13b54.jpg' +
+            pizza.image
+          "
+          alt=""
+        />
+      </div>
+      <div class="dish-info">
+        <div matLine class="dish-element-title">{{ pizza.name }}</div>
+        <div matLine class="dish-element-info">{{ pizza.toppings }}</div>
+        <div matLine class="dish-element-options--element">
+          Mała {{ pizza.priceMini }} zł
+        </div>
+        <div matLine class="dish-element-options--element">
+          Duża {{ pizza.priceBig }} zł
+        </div>
+        <div class="shop-btn" matLine>
+          <button mat-raised-button>DODAJ DO KOSZYKA</button>
+        </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>

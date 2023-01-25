@@ -1,0 +1,44 @@
+[
+  {
+    "image": "",
+    "name": "makaron carbonara",
+    "toppings": "sos Carbonara, Panchetta",
+    "price": "34"
+  },
+  {
+    "image": "",
+    "name": "makaron z gorgonzolą",
+    "toppings": "Sos serowy, białe wino, szpinak, biała cebula",
+    "price": "35"
+  },
+  {
+    "image": "",
+    "name": "makaron bolognese",
+    "toppings": "sos pomidorowy, sos bolognese, ser grana padano",
+    "price": "36"
+  },
+  {
+    "image": "",
+    "name": "makaron z polędwiczką i grzybami",
+    "toppings": "sos śmiet.,polędwiczka wp.,podgrzybek,cebula,suszony pomidor,czosnek,rozmaryn",
+    "price": "37"
+  },
+  {
+    "image": "",
+    "name": "makaron z kurczakiem i groszkiem",
+    "toppings": "sos śmiet-winny,pieczarki,groszek cukrowy,cebula ,czosnek",
+    "price": "38"
+  },
+  {
+    "image": "",
+    "name": "makaron ostry",
+    "toppings": "NDuja,cebula,papryka,ricotta,śmietana,kapary",
+    "price": "39"
+  },
+  {
+    "image": "",
+    "name": "makaron z karczochami",
+    "toppings": "karczochy,suszony pomidor,podgrzybek,cebula,natka pietruszki",
+    "price": "40"
+  }
+]

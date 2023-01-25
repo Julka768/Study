@@ -1,0 +1,44 @@
+@import "../../../styles.scss";
+.info {
+  text-align: center;
+  padding: 4%;
+}
+
+.pasta,
+.salad,
+.pizza {
+  margin-top: 20%;
+}
+@media screen and (min-width: 600px) and (max-width: 819px) {
+  .pizza,
+  .pasta,
+  .salad {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+  .pizza,
+  .pasta,
+  .salad {
+    margin-top: 60px;
+  }
+
+  .info div div {
+    font-size: 28px;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pizza,
+  .pasta,
+  .salad {
+    margin-top: 60px;
+  }
+
+  .info div div {
+    font-size: 28px;
+    margin-bottom: 2%;
+  }
+}

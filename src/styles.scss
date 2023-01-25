@@ -1,1 +1,180 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; /* You can add global styles to this file, and also import other style files */
+$green: #8dc14a;
+$background-green: #2e9525;
+$outline-green: #668b35;
+$grey: rgba(255, 255, 255, 0.1);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #303030;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+button {
+  border: none;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px !important;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 2%;
+}
+.pizza {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.pasta {
+  text-align: center;
+}
+
+.salad {
+  text-align: center;
+}
+h2 {
+  margin: 2% 0 !important;
+  font-size: 40px !important;
+  text-align: center;
+}
+//component model
+div,
+span {
+  color: white;
+}
+
+span.mat-list-item-content {
+  display: block !important;
+}
+.dish-wrapper-column {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 75% !important;
+  justify-content: center;
+}
+
+.mat-list-base {
+  width: 100% !important;
+}
+.mat-list-base .mat-list-item.mat-3-line {
+  height: auto;
+}
+
+.dish-element {
+  background-color: $grey;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.dish-element section {
+  max-width: 50%;
+}
+
+.dish-element-title {
+  font-size: 25px !important;
+  text-transform: uppercase;
+  color: #8dc14a;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #8dc14a;
+  padding: 10px;
+  position: relative;
+}
+.dish-element-info {
+  margin: 5px 0 !important;
+  font-size: 20px !important;
+  font-weight: normal;
+  padding: 10px;
+  overflow: visible !important;
+  white-space: pre-line !important;
+}
+.dish-element-options {
+  margin-top: 1% !important;
+
+  font-size: 20px;
+}
+.dish-element-options--element {
+  margin-top: 1% !important;
+  padding: 10px;
+  font-size: 20px !important;
+}
+
+.dish-image {
+  height: 250px;
+  width: 370px;
+  margin: 20px 0 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  user-select: none;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.shop-btn button {
+  margin: 8px 0 5px;
+  height: 40px;
+  line-height: 39px;
+  padding: 0 35px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  width: 260px;
+  background-color: $green;
+}
+
+.shop-btn button:hover {
+  background-color: $background-green;
+}
+
+@media screen and (min-width: 1024px) {
+  span.mat-list-item-content {
+    display: flex !important;
+    max-width: 80%;
+    // justify-content: center !important;
+    margin: 0 auto !important;
+    justify-content: space-between !important ;
+  }
+
+  .dish-info {
+    max-width: 50%;
+  }
+}

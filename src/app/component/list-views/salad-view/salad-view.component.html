@@ -1,0 +1,25 @@
+<h2>Sałatka</h2>
+<div class="dish-wrapper-column">
+  <mat-list>
+    <mat-list-item *ngFor="let salad of salads">
+      <img
+        class="dish-image"
+        [src]="
+          'http://api.listekbazylii32.pl/images/7d1729ea-ddcf-4e55-9ada-5d6802c4d9a7.jpg' +
+          salad.image
+        "
+        alt=""
+      />
+      <div class="dish-info">
+        <div matLine class="dish-element-title">{{ salad.name }}</div>
+        <div matLine class="dish-element-info">{{ salad.toppings }}</div>
+        <div matLine class="dish-element-options--element">
+          Cena {{ salad.price }} zł
+        </div>
+        <div class="shop-btn" matLine>
+          <button mat-raised-button>DODAJ DO KOSZYKA</button>
+        </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>
