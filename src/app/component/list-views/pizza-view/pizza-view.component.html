@@ -16,13 +16,12 @@
         <div matLine class="dish-element-title">{{ pizza.name }}</div>
         <div matLine class="dish-element-info">{{ pizza.toppings }}</div>
         <div matLine class="dish-element-options--element">
-          Mała {{ pizza.priceMini }} zł
-        </div>
-        <div matLine class="dish-element-options--element">
-          Duża {{ pizza.priceBig }} zł
+          Cena {{ pizza.price }} z
         </div>
         <div class="shop-btn" matLine>
-          <button mat-raised-button>DODAJ DO KOSZYKA</button>
+          <button mat-raised-button (click)="addToCart(pizza)">
+            DODAJ DO KOSZYKA
+          </button>
         </div>
       </div>
     </mat-list-item>

@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { BrowserModule } from '@angular/platform-browser';
+import { CartService } from './services/card.service';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, FooterComponent, FilterPipe],
@@ -23,7 +24,7 @@ import { BrowserModule } from '@angular/platform-browser';
     MatListModule,
     // CommonModule,
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

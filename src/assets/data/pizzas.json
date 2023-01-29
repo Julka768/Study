@@ -3,72 +3,72 @@
     "image": "",
     "name": "pizza mięsna",
     "toppings": "Sos pomidorowy, ser mozzarella, szynka, salami, kurczak, papryka",
-    "priceMini": 26,
-    "priceBig": 35,
+    "price": 27,
     "hot": "ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza gruszka",
     "toppings": "Sos serowy, ser mozzarella, gruszka marynowana, gorgonzola",
-    "priceMini": 28,
-    "priceBig": 38,
+    "price": 28,
     "hot": "nie ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza salame picante",
     "toppings": "Sos pomidorowy, ser mozzarella, salame spianata, Nduja, papryka grilowana",
-    "priceMini": 29,
-    "priceBig": 39,
+    "price": 29,
     "hot": "nie ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza salame napoli",
     "toppings": "Sos pomidorowy, ser mozzarella, salame napoli, czarne oliwki",
-    "priceMini": 30,
-    "priceBig": 40,
+    "price": 30,
     "hot": "ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza z tuńczykiem",
     "toppings": "Sos serowy, ser mozzarella, tuńczyk, kukurydza, cebula czerwona",
-    "priceMini": 31,
-    "priceBig": 41,
+    "price": 31,
     "hot": "ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza na ostro",
     "toppings": "Sos pomidorowy, ser mozzarella, szynka cotto, salami spianata/napoli, pancetta, pieczarki, papryka jalapeno",
-    "priceMini": 32,
-    "priceBig": 42,
+    "price": 32,
     "hot": "nie ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza serowa",
     "toppings": "Sos serowy, ser mozzarella, ser feta, ser scamorza, ser gorgonzola",
-    "priceMini": 33,
-    "priceBig": 43,
+    "price": 33,
     "hot": "ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   },
   {
     "image": "",
     "name": "pizza serowa",
     "toppings": "Sos pomidorowy, ser mozzarella, grillowane warzywa, czerwona cebula",
-    "priceMini": 34,
-    "priceBig": 44,
+    "price": 34,
     "hot": "nie ostre",
-    "pizza": "pizza"
+    "pizza": "pizza",
+    "quantity": 1
   }
 ]

@@ -5,4 +5,5 @@ export interface IPasta {
   price: number;
   hot: string;
   pasta: string;
+  quantity: number;
 }

@@ -5,7 +5,8 @@
     "toppings": "sos Carbonara, Panchetta",
     "price": 34,
     "hot": "ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -13,7 +14,8 @@
     "toppings": "Sos serowy, białe wino, szpinak, biała cebula",
     "price": 35,
     "hot": "nie ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -21,7 +23,8 @@
     "toppings": "sos pomidorowy, sos bolognese, ser grana padano",
     "price": 36,
     "hot": "ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -29,7 +32,8 @@
     "toppings": "sos śmiet.,polędwiczka wp.,podgrzybek,cebula,suszony pomidor,czosnek,rozmaryn",
     "price": 37,
     "hot": "nie ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -37,7 +41,8 @@
     "toppings": "sos śmiet-winny,pieczarki,groszek cukrowy,cebula ,czosnek",
     "price": 38,
     "hot": "ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -45,7 +50,8 @@
     "toppings": "NDuja,cebula,papryka,ricotta,śmietana,kapary",
     "price": 39,
     "hot": "nie ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   },
   {
     "image": "",
@@ -53,6 +59,7 @@
     "toppings": "karczochy,suszony pomidor,podgrzybek,cebula,natka pietruszki",
     "price": 40,
     "hot": "nie ostre",
-    "pasta": "pasta"
+    "pasta": "pasta",
+    "quantity": 1
   }
 ]

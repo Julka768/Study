@@ -19,7 +19,9 @@
           Cena {{ pasta.price }} zł
         </div>
         <div class="shop-btn" matLine>
-          <button mat-raised-button>DODAJ DO KOSZYKA</button>
+          <button mat-raised-button (click)="addToCart(pasta)">
+            DODAJ DO KOSZYKA
+          </button>
         </div>
       </div>
     </mat-list-item>

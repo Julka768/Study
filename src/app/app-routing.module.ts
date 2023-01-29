@@ -18,6 +18,20 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'pasta-page',
+    loadChildren: () =>
+      import('./component/pasta-page/pasta-page.module').then(
+        (m) => m.PastaPageModule
+      ),
+  },
+  {
+    path: 'shopping-page',
+    loadChildren: () =>
+      import('./component/shopping-page/shopping-page.module').then(
+        (m) => m.ShoppingPageModule
+      ),
+  },
+  {
     path: 'pizza',
     loadChildren: () =>
       import('./component/list-views/pizza-view/pizza-view.module').then(

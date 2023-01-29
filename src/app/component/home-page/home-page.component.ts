@@ -10,7 +10,6 @@ import { IPizza } from 'src/model/pizza.model';
 })
 export class HomePageComponent implements OnInit {
   toppings = new FormControl();
-  hots = new FormControl();
   pizzaOrPastasSelect = new FormControl();
   pizzaSelected: boolean = true;
   pastaSelected: boolean = true;
@@ -52,11 +51,6 @@ export class HomePageComponent implements OnInit {
     }
     this.onToppingsSelected();
   }
-
-  onHotOrNotSelected() {
-    console.log(this.hots.value.toString());
-  }
-
   onToppingsSelected() {
     console.log(this.toppings.value.toString());
 

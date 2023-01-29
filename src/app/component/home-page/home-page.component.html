@@ -37,30 +37,7 @@
         </mat-select>
       </mat-form-field>
     </div>
-    <div>
-      <mat-form-field appearance="fill">
-        <mat-label>Hot or not</mat-label>
-        <mat-select
-          [formControl]="hots"
-          multiple
-          (focusout)="onHotOrNotSelected()"
-        >
-          <mat-select-trigger>
-            {{hots.value?.[0] || ''}}
-            <span
-              *ngIf="(hots.value?.length || 0) > 1"
-              class="example-additional-selection"
-            >
-              (+{{ (hots.value?.length || 0) - 1 }}
-              {{ hots.value?.length === 2 ? "other" : "others" }})
-            </span>
-          </mat-select-trigger>
-          <mat-option *ngFor="let hot of hotList" [value]="hot">{{
-            hot
-          }}</mat-option>
-        </mat-select>
-      </mat-form-field>
-    </div>
+
     <div>
       <mat-form-field appearance="fill">
         <mat-label>Toppings</mat-label>

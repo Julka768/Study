@@ -4,18 +4,21 @@
     <mat-menu #menu="matMenu"
       ><div>
         <button mat-menu-item>
-          <a [href]="['/home-page']">Strona Główna</a>
+          <a [routerLink]="['/home-page']">Strona Główna</a>
         </button>
-        <button mat-menu-item><a [href]="['/pizza-page']">Pizza</a></button>
-        <button mat-menu-item><a [href]="['/pizza']">Makarony</a></button>
+        <button mat-menu-item>
+          <a [routerLink]="['/pizza-page']">Pizza</a>
+        </button>
+        <button mat-menu-item>
+          <a [routerLink]="['/pasta-page']">Makarony</a>
+        </button>
       </div>
     </mat-menu>
   </div>
   <div>
     <div class="wrapper">
       <div class="user-interface">
-        <a [href]="['/']" class="material-icons">Koszyk </a
-        ><a [href]="['/account']" class="material-icons">Profil</a>
+        <a [routerLink]="['/shopping-page']" class="material-icons">Koszyk </a>
       </div>
     </div>
   </div>

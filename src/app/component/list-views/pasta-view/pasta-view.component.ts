@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { CartService } from 'src/app/services/card.service';
 import { IPasta } from 'src/model/pasta.model';
 
 @Component({
@@ -9,6 +10,10 @@ import { IPasta } from 'src/model/pasta.model';
 export class PastaViewComponent implements OnInit {
   @Input() pastas: IPasta[] = [];
 
-  constructor() {}
+  constructor(private cartService: CartService) {}
   ngOnInit(): void {}
+
+  addToCart(pasta: IPasta) {
+    this.cartService.addPasta(pasta);
+  }
 }
