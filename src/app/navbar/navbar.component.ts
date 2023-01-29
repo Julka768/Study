@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MatMenuTrigger } from '@angular/material/menu';
 
 @Component({
   selector: 'app-navbar',
@@ -7,11 +6,6 @@ import { MatMenuTrigger } from '@angular/material/menu';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  // @ViewChild(MatMenuTrigger) trigger: MatMenuTrigger;
-
-  // someMethod() {
-  //   this.trigger.openMenu();
-  // }
   constructor() {}
 
   ngOnInit() {}
