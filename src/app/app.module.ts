@@ -1,5 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+// import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,9 +9,11 @@ import { FormsModule } from '@angular/forms';
 import { MatListModule } from '@angular/material/list';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent, FilterPipe],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -19,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     NgMaterialModule,
     FormsModule,
     MatListModule,
+    // CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

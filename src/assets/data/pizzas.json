@@ -4,55 +4,71 @@
     "name": "pizza mięsna",
     "toppings": "Sos pomidorowy, ser mozzarella, szynka, salami, kurczak, papryka",
     "priceMini": 26,
-    "priceBig": 35
+    "priceBig": 35,
+    "hot": "ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza gruszka",
     "toppings": "Sos serowy, ser mozzarella, gruszka marynowana, gorgonzola",
     "priceMini": 28,
-    "priceBig": 38
+    "priceBig": 38,
+    "hot": "nie ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza salame picante",
     "toppings": "Sos pomidorowy, ser mozzarella, salame spianata, Nduja, papryka grilowana",
     "priceMini": 29,
-    "priceBig": 39
+    "priceBig": 39,
+    "hot": "nie ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza salame napoli",
     "toppings": "Sos pomidorowy, ser mozzarella, salame napoli, czarne oliwki",
     "priceMini": 30,
-    "priceBig": 40
+    "priceBig": 40,
+    "hot": "ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza z tuńczykiem",
     "toppings": "Sos serowy, ser mozzarella, tuńczyk, kukurydza, cebula czerwona",
     "priceMini": 31,
-    "priceBig": 41
+    "priceBig": 41,
+    "hot": "ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza na ostro",
     "toppings": "Sos pomidorowy, ser mozzarella, szynka cotto, salami spianata/napoli, pancetta, pieczarki, papryka jalapeno",
     "priceMini": 32,
-    "priceBig": 42
+    "priceBig": 42,
+    "hot": "nie ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza serowa",
     "toppings": "Sos serowy, ser mozzarella, ser feta, ser scamorza, ser gorgonzola",
     "priceMini": 33,
-    "priceBig": 43
+    "priceBig": 43,
+    "hot": "ostre",
+    "pizza": "pizza"
   },
   {
     "image": "",
     "name": "pizza serowa",
     "toppings": "Sos pomidorowy, ser mozzarella, grillowane warzywa, czerwona cebula",
     "priceMini": 34,
-    "priceBig": 44
+    "priceBig": 44,
+    "hot": "nie ostre",
+    "pizza": "pizza"
   }
 ]

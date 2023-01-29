@@ -3,42 +3,56 @@
     "image": "",
     "name": "makaron carbonara",
     "toppings": "sos Carbonara, Panchetta",
-    "price": "34"
+    "price": 34,
+    "hot": "ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron z gorgonzolą",
     "toppings": "Sos serowy, białe wino, szpinak, biała cebula",
-    "price": "35"
+    "price": 35,
+    "hot": "nie ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron bolognese",
     "toppings": "sos pomidorowy, sos bolognese, ser grana padano",
-    "price": "36"
+    "price": 36,
+    "hot": "ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron z polędwiczką i grzybami",
     "toppings": "sos śmiet.,polędwiczka wp.,podgrzybek,cebula,suszony pomidor,czosnek,rozmaryn",
-    "price": "37"
+    "price": 37,
+    "hot": "nie ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron z kurczakiem i groszkiem",
     "toppings": "sos śmiet-winny,pieczarki,groszek cukrowy,cebula ,czosnek",
-    "price": "38"
+    "price": 38,
+    "hot": "ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron ostry",
     "toppings": "NDuja,cebula,papryka,ricotta,śmietana,kapary",
-    "price": "39"
+    "price": 39,
+    "hot": "nie ostre",
+    "pasta": "pasta"
   },
   {
     "image": "",
     "name": "makaron z karczochami",
     "toppings": "karczochy,suszony pomidor,podgrzybek,cebula,natka pietruszki",
-    "price": "40"
+    "price": 40,
+    "hot": "nie ostre",
+    "pasta": "pasta"
   }
 ]

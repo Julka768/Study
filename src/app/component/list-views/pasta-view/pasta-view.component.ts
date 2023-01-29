@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { IPasta } from 'src/model/pasta.model';
 
 @Component({
@@ -7,14 +7,8 @@ import { IPasta } from 'src/model/pasta.model';
   styleUrls: ['./pasta-view.component.scss'],
 })
 export class PastaViewComponent implements OnInit {
-  pastas: IPasta[] = [];
+  @Input() pastas: IPasta[] = [];
 
   constructor() {}
-  ngOnInit(): void {
-    fetch('../../../../assets/data/pastas.json')
-      .then((res) => res.json())
-      .then((json) => {
-        this.pastas = json;
-      });
-  }
+  ngOnInit(): void {}
 }

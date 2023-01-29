@@ -3,4 +3,6 @@ export interface IPasta {
   name: string;
   toppings: string;
   price: number;
+  hot: string;
+  pasta: string;
 }

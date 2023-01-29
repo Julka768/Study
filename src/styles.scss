@@ -1,4 +1,4 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css"; /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css"; /* You can add global styles to this file, and also import other style files */
 $green: #8dc14a;
 $background-green: #2e9525;
 $outline-green: #668b35;
@@ -168,13 +168,13 @@ img {
 @media screen and (min-width: 1024px) {
   span.mat-list-item-content {
     display: flex !important;
-    max-width: 80%;
+    width: 80%;
     // justify-content: center !important;
     margin: 0 auto !important;
     justify-content: space-between !important ;
   }
 
   .dish-info {
-    max-width: 50%;
+    width: 50%;
   }
 }

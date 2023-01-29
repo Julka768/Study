@@ -4,4 +4,6 @@ export interface IPizza {
   toppings: string;
   priceMini: number;
   priceBig: number;
+  hot: string;
+  pizza: string;
 }

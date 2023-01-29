@@ -10,7 +10,13 @@ const routes: Routes = [
         (m) => m.HomePageModule
       ),
   },
-
+  {
+    path: 'pizza-page',
+    loadChildren: () =>
+      import('./component/pizza-page/pizza-page.module').then(
+        (m) => m.PizzaPageModule
+      ),
+  },
   {
     path: 'pizza',
     loadChildren: () =>
@@ -23,13 +29,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./component/list-views/pasta-view/pasta-view.module').then(
         (m) => m.PastaViewModule
-      ),
-  },
-  {
-    path: 'salad',
-    loadChildren: () =>
-      import('./component/list-views/salad-view/salad-view.module').then(
-        (m) => m.SaladViewModule
       ),
   },
   {

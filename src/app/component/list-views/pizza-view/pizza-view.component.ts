@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { IPizza } from 'src/model/pizza.model';
 
 @Component({
@@ -7,14 +7,9 @@ import { IPizza } from 'src/model/pizza.model';
   styleUrls: ['./pizza-view.component.scss'],
 })
 export class PizzaViewComponent implements OnInit {
-  pizzas: IPizza[] = [];
+  @Input() pizzas: IPizza[] = [];
 
   constructor() {}
-  ngOnInit(): void {
-    fetch('../../../../assets/data/pizzas.json')
-      .then((res) => res.json())
-      .then((json) => {
-        this.pizzas = json;
-      });
-  }
+
+  ngOnInit() {}
 }
